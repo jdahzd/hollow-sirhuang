@@ -1,0 +1,26 @@
+INNER JOIN  ta on ta.id ON tb.id  sql语句连接
+inner join
+
+LEFT OUTER JOIN ta on  ta.id on tb.id sql语句左连接
+left outer join
+
+RIGHT OUTER JOIN ta on ta.id on tb.id sql语句右连接
+right outet join
+
+FULL OUTER JOIN ta on ta.id on tb.id sql语句全连接 
+full outer
+
+SELECT  * FROM S_SuffererData  查询语句
+select  from
+  
+GROUP BY 分组
+group by
+
+INSERT INTO ta (字段1，字段2) VALUES (@字段1，@字段2)
+insert into  values
+
+UPDATA ta SET  字段1= @字段1，字段2= 字段2
+update  set
+
+DELETE FROM tb  WHERE ID = ID //删除语句最后条件，否则就全部整个表删除
+
